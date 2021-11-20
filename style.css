@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    min-width: 1440px;
+    font-family: "InterUI";
+}
+
+@font-face {
+    font-family: "InterUI";  
+    src: url("/fonts/Inter-UI-Black.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "InterUI";  
+    src: url("/fonts/Inter-UI-Bold.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "InterUI";  
+    src: url("/fonts/Inter-UI-Regular.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: lighter;
+}
+
+body{
+    height: 100%;
+}
+
+h1{
+    margin: 20px 0;
+    font-size: 52px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+.center{
+    display: block;
+    text-align: center;
+}
+
+.wrapper{
+    padding: 30px 150px;
+}
+
+.data_colector{
+    background-color: #2A2E53;
+    color: #FFFFFF;
+    padding: 50px 195px ;
+}
+
+form{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+form input[type=text], form textarea{
+    min-width: 300px;
+    margin: 15px;
+    padding: 18px 20px;
+    border: unset;
+    border-radius: 4px;
+}
+
+form textarea{
+    min-width: 675px;
+    min-height: 144px;
+}
+
+form button{
+    color:  #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 18px 30px;
+    border: unset;
+    border-radius: 4px;
+    background-color: #DB3A40;
+    margin: 15px;
+}
+
+.contact{
+    padding-top: 50px;
+}
+
+.contact .wrapper iframe{
+    margin-top: 50px;
+    border: unset;
+    width: 100%;
+    height: 467px;
+}
+
+.contact .wrapper .info{
+    background-color: #FFFFFF;
+    max-width: 340px;
+    position: relative;
+    top: -420px;
+    left: 62%;
+    font-weight: lighter;
+    border-radius: 4px;
+    padding: 0 0 40px 40px;
+    margin-bottom: -250px;
+}
+
+.info h2{
+    padding: 20px 0;
+}
+
+
+.info .details{
+    margin: 20px 0 30px 0;
+}
+
+.info .details h3{
+    padding: 5px 0;
+}
+
+.info a{
+    background-color: #3140C5;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.footer{
+
+    background-color: #1C2639;
+    color: #FFFFFF;
+}
+
+.footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer hr{
+    border-color: #2C3649;
+}
+
+.columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin: 20px 0;
+}
+
+.columns .info_section{
+    margin-right: 100px;
+}
+
+.columns .info_section .header{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.columns .info_section .content{
+    color: #D0D0D0;
+    line-height: 30px;
+}
+
+.links a{
+    padding: 0 20px 0 0;
+}
+
+.bottom_line{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 8px 0;
+}
